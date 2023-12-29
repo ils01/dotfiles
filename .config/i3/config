@@ -215,12 +215,14 @@ exec --no-startup-id brave
 # exec --no-startup-id obsidian
 # exec --no-startup-id easyeffects
 exec --no-startup-id xfsettingsd
+
 exec --no-startup-id $HOME/Desktop/.scripts/schedule.sh
 exec_always --no-startup-id ~/Desktop/.scripts/gummy.sh
 exec_always --no-startup-id $HOME/.config/polybar/launch.sh
-# 222th line reserved for bg setting; this line number (222) is used in changebg.sh; 
-exec_always --no-startup-id feh --bg-scale /home/ilya/Desktop/downloads/pics/wp/favoritez/rainbowgrid.png &
-# ==============================================================================
+
 gaps inner 10
 gaps outer 10
 smart_gaps on
+
+# last line reserved for changebg.sh
+exec_always --no-startup-id feh --bg-scale /home/ilya/Desktop/downloads/pics/wp/favoritez/05.jpg &
