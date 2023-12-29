@@ -1,0 +1,59 @@
+{
+	"editor.lineHeight": 1.45,
+
+	"workbench.colorTheme": "Andromeda Colorizer",
+	"workbench.tree.indent": 20,
+
+	"editor.fontFamily": "'Fira Code', 'Mononoki', 'Droid Sans Mono', 'monospace', monospaceU",
+	"terminal.integrated.fontFamily": "monospace",
+	"workbench.iconTheme": "symbols",
+	"symbols.hidesExplorerArrows": false,
+
+	"editor.wordWrap": "bounded",
+	"editor.wrappingIndent": "same",
+	"editor.wordWrapColumn": 80,
+
+	// "editor.folding": false,
+	"editor.minimap.enabled": false,
+	"breadcrumbs.enabled": false,
+
+	"editor.smoothScrolling": true,
+	"editor.quickSuggestionsDelay": 0,
+	"editor.linkedEditing": true,
+	"html.autoClosingTags": true,
+	"editor.renderControlCharacters": true,
+	"editor.glyphMargin": false,
+	"editor.scrollbar.horizontal": "visible",
+	"editor.scrollbar.vertical": "visible",
+	// "window.density.editorTabHeight": "compact",
+	"window.titleBarStyle": "custom",
+	"workbench.activityBar.location": "top",
+	"editor.accessibilitySupport": "off",
+	"window.commandCenter": false,
+	"workbench.layoutControl.enabled": false,
+
+	// EXPLORER
+	"explorer.compactFolders": false,
+	"explorer.confirmDragAndDrop": false,
+
+	// DEBUG
+	"debug.toolBarLocation": "hidden",
+	"debug.focusWindowOnBreak": false,
+	"debug.showInlineBreakpointCandidates": false,
+	"debug.showBreakpointsInOverviewRuler": false,
+
+	// EMMET
+	"emmet.includeLanguages": {
+		"javascript": "javascriptreact"
+	},
+	"emmet.triggerExpansionOnTab": true,
+
+	// FORMAT
+	"prettier.useTabs": true,
+	"editor.formatOnSave": true,
+	"editor.detectIndentation": false,
+
+	// PRETTIER
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+	"prettier.printWidth": 80
+}
