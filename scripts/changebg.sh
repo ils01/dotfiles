@@ -4,6 +4,7 @@ ls | sort -R | tail -n 1 | while read file ; do
 	n=222
 	cmd="exec_always --no-startup-id feh --bg-scale $(readlink -f $file) \&"
 	echo $file
-	sed -i "${n}s@.*@${cmd}@" "$config_path"
+	# sed -i "${n}s@.*@${cmd}@" "$config_path"
+    sed -i '$s@.*@'"${cmd}"'@' "$config_path"
 	feh --bg-scale $file &
 done
